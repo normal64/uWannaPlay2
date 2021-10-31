@@ -1,0 +1,116 @@
+@font-face {
+  font-family: frijole;
+  src: url(./assets/fonts/Frijole-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+  overflow-y: hidden;
+  font-family: "frijole";
+}
+
+h1, h2 {
+  color: wheat;
+}
+
+h3 {
+  color: white;
+}
+
+.night {
+  height: 78vh;
+  width: 70vw;
+  border: 2px solid black;
+  margin: 5em auto;
+  background: url("./assets/beach-retro-wave_1920x1080.jpg");
+  /* background: url("./assets/dribbble-sence.gif"); */
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  -webkit-box-shadow: 1em 2em 6em #272727;
+          box-shadow: 1em 2em 6em #272727;
+  overflow-x: hidden;
+}
+
+.pavement {
+  height: 19%;
+  width: 500%;
+  background: url("/assets/Img_02.png");
+  display: block;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  background-repeat: repeat-x;
+}
+
+.car {
+  position: absolute;
+  bottom: 7%;
+  left: 24%;
+}
+
+@-webkit-keyframes moveRight {
+  100% {
+    -webkit-transform: translateX(-2950px);
+            transform: translateX(-2950px);
+  }
+}
+
+@keyframes moveRight {
+  100% {
+    -webkit-transform: translateX(-2950px);
+            transform: translateX(-2950px);
+  }
+}
+
+@-webkit-keyframes suspension {
+  100% {
+    -webkit-transform: translateY(-1px);
+            transform: translateY(-1px);
+  }
+  50% {
+    -webkit-transform: translateY(2px);
+            transform: translateY(2px);
+  }
+  0% {
+    -webkit-transform: translateY(-1px);
+            transform: translateY(-1px);
+  }
+}
+
+@keyframes suspension {
+  100% {
+    -webkit-transform: translateY(-1px);
+            transform: translateY(-1px);
+  }
+  50% {
+    -webkit-transform: translateY(2px);
+            transform: translateY(2px);
+  }
+  0% {
+    -webkit-transform: translateY(-1px);
+            transform: translateY(-1px);
+  }
+}
+
+.moveRight {
+  -webkit-animation: moveRight 6s linear infinite;
+          animation: moveRight 6s linear infinite;
+}
+
+.suspension {
+  -webkit-animation: suspension 1s linear   infinite;
+          animation: suspension 1s linear   infinite;
+}
+
+.creds {
+  margin-left: 2vw;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

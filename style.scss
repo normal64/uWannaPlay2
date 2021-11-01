@@ -21,23 +21,22 @@ h3{
     border: 2px solid black;
     margin: 5em auto;
     background: url("./assets/beach-retro-wave_1920x1080.jpg");  
-    /* background: url("./assets/dribbble-sence.gif"); */
-     background-position: center center; 
+    background-position: center center; 
     background-size: cover;
     position: relative;
     box-shadow: 1em 2em  6em    rgba($color: #272727, $alpha: 1.0);
     overflow-x: hidden;
 }
 .pavement{
-    height: 19%;
-     width: 500%;
-    background: url("/assets/Img_02.png");
+    height: 25%;
+     width: 800%;
+    background: url("./assets/Img_02.png");
     display: block;
     position: absolute;
     bottom: 0%;
     left: 0%;
     background-repeat: repeat-x;
-  
+
 }
 .car{
     position: absolute;

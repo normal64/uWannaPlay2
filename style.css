@@ -24,7 +24,6 @@ h3 {
   border: 2px solid black;
   margin: 5em auto;
   background: url("./assets/beach-retro-wave_1920x1080.jpg");
-  /* background: url("./assets/dribbble-sence.gif"); */
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -34,9 +33,9 @@ h3 {
 }
 
 .pavement {
-  height: 19%;
-  width: 500%;
-  background: url("/assets/Img_02.png");
+  height: 25%;
+  width: 800%;
+  background: url("./assets/Img_02.png");
   display: block;
   position: absolute;
   bottom: 0%;
